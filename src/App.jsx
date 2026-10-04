@@ -162,10 +162,10 @@ const RevealImage = ({ src, alt, className, onMouseEnter, onMouseLeave }) => {
   return (
     <motion.div
       className={className}
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-      viewport={{ once: true, margin: '0px', amount: 0.1 }}
+      initial={{ y: 30, opacity: 0.5 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      viewport={{ once: true, margin: "200px" }}
       style={{ overflow: 'hidden', position: 'relative' }}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
