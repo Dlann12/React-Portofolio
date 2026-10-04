@@ -162,9 +162,9 @@ const RevealImage = ({ src, alt, className, onMouseEnter, onMouseLeave }) => {
   return (
     <motion.div
       className={className}
-      initial={{ clipPath: 'inset(100% 0% 0% 0%)' }}
-      whileInView={{ clipPath: 'inset(0% 0% 0% 0%)' }}
-      transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
       viewport={{ once: true, margin: '0px', amount: 0.1 }}
       style={{ overflow: 'hidden', position: 'relative' }}
       onMouseEnter={onMouseEnter}
