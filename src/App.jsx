@@ -684,10 +684,15 @@ function App() {
             <div className="about-grid">
               <div className="about-visual">
                 <div className="about-image-wrapper">
-                  <RevealImage 
+                  <motion.img 
+                    initial={{ y: 30, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    viewport={{ once: true, margin: "200px" }}
                     src="assets/about.webp" 
                     alt="About Fadlan" 
                     className="about-img" 
+                    style={{ borderRadius: '24px' }}
                   />
                   <motion.div 
                     initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ delay: 0.5, duration: 0.8 }} viewport={{ once: true }}
