@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fadlan Dwi Febrio - Portfolio">
+    <title>Fadlan Dwi Febrio | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="loading">
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor></div>
+    <div class="cursor-outline" data-cursor></div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo" data-hover>
+                <span class="logo-text">FDF</span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-hover>Home</a></li>
+                <li><a href="#about" class="nav-link" data-hover>About</a></li>
+                <li><a href="#skills" class="nav-link" data-hover>Skills</a></li>
+                <li><a href="#experience" class="nav-link" data-hover>Experience</a></li>
+                <li><a href="#credentials" class="nav-link" data-hover>Credentials</a></li>
+                <li><a href="#projects" class="nav-link" data-hover>Projects</a></li>
+                <li><a href="#contact" class="nav-link" data-hover>Contact</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu" data-hover>
+                <span class="material-symbols-outlined menu-icon">menu</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#experience" class="mobile-link">Experience</a></li>
+            <li><a href="#credentials" class="mobile-link">Credentials</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <div class="glow-orb orb-1"></div>
+                <div class="glow-orb orb-2"></div>
+            </div>
+            
+            <div class="hero-container">
+                <div class="hero-content reveal-stagger">
+                    <div class="status-badge reveal-item">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Available for Opportunities</span>
+                    </div>
+
+                    <h1 class="hero-title reveal-item">
+                        Fadlan Dwi <br> 
+                        <span class="text-gradient">Febrio.</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle reveal-item">
+                        <span class="material-symbols-outlined">code</span>
+                        <span id="typing-text"></span><span class="cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description reveal-item">
+                        Bachelor Of Informatics | Coding Camp Machine Learning Engineer 2025 | Interest on Software Engineering, Graphic Designer, Full stack, Machine Learning, etc.
+                    </p>
+
+                    <div class="hero-cta reveal-item">
+                        <a href="#projects" class="btn btn-primary" data-hover>
+                            <span>Explore Work</span>
+                            <span class="material-symbols-outlined">arrow_outward</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" data-hover>
+                            <span>Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal-scale">
+                    <div class="image-wrapper glass-panel">
+                        <img src="assets/profile.webp" alt="Fadlan Dwi Febrio" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <!-- Floating badges -->
+                    <div class="floating-badge badge-1 glass-panel">
+                        <span class="material-symbols-outlined text-gradient">data_object</span>
+                        <span>Developer</span>
+                    </div>
+                    <div class="floating-badge badge-2 glass-panel">
+                        <span class="material-symbols-outlined text-gradient">memory</span>
+                        <span>AI / ML</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Infinite Marquee -->
+        <div class="marquee-section">
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <span>SOFTWARE ENGINEERING</span><span class="dot">•</span>
+                    <span>MACHINE LEARNING</span><span class="dot">•</span>
+                    <span>ARTIFICIAL INTELLIGENCE</span><span class="dot">•</span>
+                    <span>DATA SCIENCE</span><span class="dot">•</span>
+                    <span>FULLSTACK DEV</span><span class="dot">•</span>
+                    <span>GRAPHIC DESIGN</span><span class="dot">•</span>
+                    
+                    <!-- Duplicate for infinite effect -->
+                    <span>SOFTWARE ENGINEERING</span><span class="dot">•</span>
+                    <span>MACHINE LEARNING</span><span class="dot">•</span>
+                    <span>ARTIFICIAL INTELLIGENCE</span><span class="dot">•</span>
+                    <span>DATA SCIENCE</span><span class="dot">•</span>
+                    <span>FULLSTACK DEV</span><span class="dot">•</span>
+                    <span>GRAPHIC DESIGN</span><span class="dot">•</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-visual reveal-left">
+                        <div class="about-image-wrapper">
+                            <img src="assets/about.webp" alt="About Fadlan" class="about-img parallax-img">
+                            <div class="experience-badge glass-panel">
+                                <span class="exp-number">1st</span>
+                                <span class="exp-text">Place National<br>Innovation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal-right">
+                        <h3 class="about-heading">Who Am I?</h3>
+                        
+                        <div class="about-text-blocks">
+                            <p>
+                                As a recent Informatics graduate with a strong interest in Software Engineering, Machine Learning, Artificial Intelligence, Data Science, Graphic Design, as well as Full Stack, Front End, and Back End development, I bring a combination of leadership, creativity, adaptability, and innovation. I am a curious, proactive, and highly motivated individual with a strong desire to continuously learn and develop my skills.
+                            </p>
+                            <p>
+                                I enjoy exploring new ideas, learning technologies such as Machine Learning and Artificial Intelligence, and transforming those ideas into practical and applicable solutions. During high school, I was entrusted with the role of Chairperson of DELTA and contributed to initiating ATHENA as a platform for high-achieving students. 
+                            </p>
+                            <p>
+                                These experiences helped me develop strong skills in leadership, teamwork, communication, creative thinking, problem-solving, and taking initiative. I am comfortable working both independently and collaboratively, and I am always open to challenges and opportunities to learn new things.
+                            </p>
+                        </div>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item glass-panel">
+                                <span class="material-symbols-outlined">school</span>
+                                <h4>Informatics</h4>
+                                <p>Bachelor's Degree</p>
+                            </div>
+                            <div class="stat-item glass-panel">
+                                <span class="material-symbols-outlined">workspace_premium</span>
+                                <h4>ML Engineer</h4>
+                                <p>Coding Camp 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding relative">
+            <div class="glow-orb orb-3"></div>
+            
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">What I Can Do</span>
+                    <h2 class="section-title">My Expertise</h2>
+                </div>
+
+                <div class="bento-grid">
+                    <!-- Software Engineering -->
+                    <div class="bento-item glass-panel reveal-up" data-delay="0.1">
+                        <div class="bento-icon">
+                            <span class="material-symbols-outlined">terminal</span>
+                        </div>
+                        <h3>Software Engineering</h3>
+                        <p>Developing reliable and maintainable software solutions by applying software engineering principles, system design, and structured development.</p>
+                        <div class="tech-stack">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">JavaScript</span>
+                            <span class="tech-pill">PHP</span>
+                            <span class="tech-pill">SQL</span>
+                            <span class="tech-pill">Laravel</span>
+                        </div>
+                    </div>
+
+                    <!-- Artificial Intelligence -->
+                    <div class="bento-item glass-panel bento-large reveal-up" data-delay="0.2">
+                        <div class="bento-icon">
+                            <span class="material-symbols-outlined">psychology</span>
+                        </div>
+                        <h3>Artificial Intelligence & ML</h3>
+                        <p>Exploring and developing artificial intelligence solutions by applying intelligent algorithms, data processing, and AI techniques. Developing ML models by preparing datasets, selecting algorithms, training, and evaluating performance for data-driven predictions.</p>
+                        <div class="tech-stack">
+                            <span class="tech-pill">TensorFlow</span>
+                            <span class="tech-pill">PyTorch</span>
+                            <span class="tech-pill">Scikit-learn</span>
+                            <span class="tech-pill">Pandas</span>
+                            <span class="tech-pill">NumPy</span>
+                        </div>
+                    </div>
+
+                    <!-- Fullstack Dev -->
+                    <div class="bento-item glass-panel reveal-up" data-delay="0.3">
+                        <div class="bento-icon">
+                            <span class="material-symbols-outlined">layers</span>
+                        </div>
+                        <h3>Fullstack Dev</h3>
+                        <p>Building complete web applications with responsive front-end interfaces and reliable back-end systems.</p>
+                        <div class="tech-stack">
+                            <span class="tech-pill">React</span>
+                            <span class="tech-pill">Node.js</span>
+                            <span class="tech-pill">Express.js</span>
+                            <span class="tech-pill">MySQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Analyst -->
+                    <div class="bento-item glass-panel reveal-up" data-delay="0.4">
+                        <div class="bento-icon">
+                            <span class="material-symbols-outlined">analytics</span>
+                        </div>
+                        <h3>Data Analyst</h3>
+                        <p>Analyzing and transforming raw data into meaningful insights through cleaning, exploration, and visualization.</p>
+                        <div class="tech-stack">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">SQL</span>
+                            <span class="tech-pill">Matplotlib</span>
+                            <span class="tech-pill">Seaborn</span>
+                        </div>
+                    </div>
+
+                    <!-- Graphic Design -->
+                    <div class="bento-item glass-panel reveal-up" data-delay="0.5">
+                        <div class="bento-icon">
+                            <span class="material-symbols-outlined">palette</span>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Creating visual designs applying composition, typography, and color theory.</p>
+                        <div class="tech-stack">
+                            <span class="tech-pill">Photoshop</span>
+                            <span class="tech-pill">Illustrator</span>
+                            <span class="tech-pill">Figma</span>
+                            <span class="tech-pill">Canva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="experience section-padding relative">
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Career Path</span>
+                    <h2 class="section-title">Work Experience</h2>
+                </div>
+
+                <div class="timeline-container">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item reveal-up" data-delay="0.1">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <span class="timeline-date">Sep 2026 - Present</span>
+                            <h3 class="timeline-title">Intern IT Programmer</h3>
+                            <h4 class="timeline-company">PT SELAMAT JAYA PERSADA</h4>
+                            <p class="timeline-desc">Working as an IT Programmer Intern developing and maintaining company systems in Bengkulu.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="timeline-item reveal-up" data-delay="0.2">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <span class="timeline-date">Jul 2026 - Present</span>
+                            <h3 class="timeline-title">Teacher</h3>
+                            <h4 class="timeline-company">Timedoor</h4>
+                            <p class="timeline-desc">Teaching programming and digital skills.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="timeline-item reveal-up" data-delay="0.3">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <span class="timeline-date">Feb 2024 - Present</span>
+                            <h3 class="timeline-title">Teaching Assistant</h3>
+                            <h4 class="timeline-company">Universitas Bengkulu</h4>
+                            <p class="timeline-desc">Assisting in teaching activities, mentoring students, and evaluating assignments across multiple semesters (Aug 2024 - Present, Feb 2024 - Jul 2024, etc).</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience 4 -->
+                    <div class="timeline-item reveal-up" data-delay="0.4">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <span class="timeline-date">Feb 2024 - Mar 2024</span>
+                            <h3 class="timeline-title">Event Committee & Moderator</h3>
+                            <h4 class="timeline-company">HIMATIF UNIB</h4>
+                            <p class="timeline-desc">Served as a committee member for CHROME, introducing the study program to the 2023 cohort. Contributed as part of the Public Relations, Documentation, and Publication (PUBDEKDOK) division. Also served as Moderator for the Opening Ceremony CHROME 2024.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Credentials & Achievements Section -->
+        <section id="credentials" class="credentials section-padding relative">
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">Licenses & Certifications</span>
+                    <h2 class="section-title">Credentials & Achievements</h2>
+                </div>
+
+                <div class="credentials-grid">
+                    <!-- Achievement 1 -->
+                    <div class="credential-card glass-panel reveal-up" data-delay="0.1">
+                        <div class="credential-icon">
+                            <span class="material-symbols-outlined">workspace_premium</span>
+                        </div>
+                        <div class="credential-info">
+                            <h3 class="credential-title">1st Winner FIFO</h3>
+                            <p class="credential-org">Future International Food Technopreneur</p>
+                            <p class="credential-desc">Awarded first place in a prestigious food innovation competition at the national level.</p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 2 -->
+                    <div class="credential-card glass-panel reveal-up" data-delay="0.2">
+                        <div class="credential-icon">
+                            <span class="material-symbols-outlined">emoji_events</span>
+                        </div>
+                        <div class="credential-info">
+                            <h3 class="credential-title">Honorable Mention</h3>
+                            <p class="credential-org">Poster Competition</p>
+                            <p class="credential-desc">Recognized for creating an impactful visual design in a national-scale competition.</p>
+                        </div>
+                    </div>
+
+                    <!-- Achievement 3 -->
+                    <div class="credential-card glass-panel reveal-up" data-delay="0.3">
+                        <div class="credential-icon">
+                            <span class="material-symbols-outlined">gavel</span>
+                        </div>
+                        <div class="credential-info">
+                            <h3 class="credential-title">3rd Debat Competition</h3>
+                            <p class="credential-org">Debate Tournament</p>
+                            <p class="credential-desc">Achieved 3rd place in debate competition multiple times, demonstrating strong public speaking and critical thinking skills.</p>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="credential-card glass-panel reveal-up" data-delay="0.4">
+                        <div class="credential-icon">
+                            <span class="material-symbols-outlined">verified</span>
+                        </div>
+                        <div class="credential-info">
+                            <h3 class="credential-title">AWS & Technical Certifications</h3>
+                            <p class="credential-org">Amazon Web Services & Others</p>
+                            <p class="credential-desc">
+                                • AWS Educate Machine Learning Foundations<br>
+                                • AWS Educate Getting Started with Compute<br>
+                                • AWS Educate Getting Started with Databases<br>
+                                • AWS Educate Getting Started with Networking<br>
+                                • Financial Literacy 101
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-container">
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle">My Recent Work</span>
+                    <h2 class="section-title">Selected Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card glass-panel reveal-up" data-delay="0.1">
+                        <div class="project-img-container">
+                            <img src="assets/project-1.webp" alt="Retinopathy Diabetic Early Detection" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Dlann12/Deteksi-Dini-Retinopati-Diabetik" target="_blank" class="icon-link" data-hover aria-label="GitHub">
+                                    <span class="material-symbols-outlined">code</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Healthcare</span>
+                            </div>
+                            <h3 class="project-title">Retinopathy Diabetic Early Detection</h3>
+                            <p class="project-desc">This study compares VGG16, ResNet50, InceptionV3, and EfficientNet-B3 for detecting DR from retinal fundus images, addressing the challenge of asymptomatic early stages.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass-panel reveal-up" data-delay="0.2">
+                        <div class="project-img-container">
+                            <img src="assets/project-2.webp" alt="Sweet Aware" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/SweetAware/sweetaware-model" target="_blank" class="icon-link" data-hover aria-label="GitHub">
+                                    <span class="material-symbols-outlined">code</span>
+                                </a>
+                                <a href="https://sweetawareapp.netlify.app/" target="_blank" class="icon-link" data-hover aria-label="Live Demo">
+                                    <span class="material-symbols-outlined">open_in_new</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Web App</span>
+                                <span class="tag">Prediction Model</span>
+                            </div>
+                            <h3 class="project-title">Sweet Aware</h3>
+                            <p class="project-desc">An application aiming to provide a self-prediction tool for early diabetes screening that is accurate, easy to use, and encourages a healthy lifestyle.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card glass-panel reveal-up" data-delay="0.3">
+                        <div class="project-img-container">
+                            <img src="assets/project-3.webp" alt="SIPARLU" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Dlann12/SIPARLU-SISTEM-INFORMASI-PARIWISATA-KOTA-BENGKULU" target="_blank" class="icon-link" data-hover aria-label="GitHub">
+                                    <span class="material-symbols-outlined">code</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Information System</span>
+                                <span class="tag">Tourism</span>
+                            </div>
+                            <h3 class="project-title">SIPARLU</h3>
+                            <p class="project-desc">Sistem Informasi Pariwisata Kota Bengkulu (SIPARLU) is a web-based application providing information about tourist attractions to promote tourism and easy access.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-cta reveal-up" data-delay="0.4">
+                    <a href="https://github.com/Dlann12" target="_blank" class="btn btn-outline" data-hover>
+                        <span>View GitHub Archive</span>
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding relative">
+            <div class="glow-orb orb-4"></div>
+            
+            <div class="section-container">
+                <div class="contact-wrapper glass-panel reveal-scale">
+                    <div class="contact-header">
+                        <span class="section-subtitle">Initiate Transmission</span>
+                        <h2 class="section-title">Let's Work Together</h2>
+                        <p class="contact-subtitle">Have a project, collaboration, or opportunity? My inbox is always open.</p>
+                    </div>
+
+                    <div class="contact-grid">
+                        <a href="mailto:fadlandwifebrio51@gmail.com" class="contact-card" data-hover>
+                            <div class="contact-icon-wrapper">
+                                <span class="material-symbols-outlined">mail</span>
+                            </div>
+                            <div class="contact-info">
+                                <h4>Email</h4>
+                                <p>fadlandwifebrio51@gmail.com</p>
+                            </div>
+                            <span class="material-symbols-outlined arrow">arrow_outward</span>
+                        </a>
+
+                        <a href="https://github.com/Dlann12" target="_blank" class="contact-card" data-hover>
+                            <div class="contact-icon-wrapper">
+                                <span class="material-symbols-outlined">code</span>
+                            </div>
+                            <div class="contact-info">
+                                <h4>GitHub</h4>
+                                <p>@Dlann12</p>
+                            </div>
+                            <span class="material-symbols-outlined arrow">arrow_outward</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/fadlan-dwi-febrio" target="_blank" class="contact-card" data-hover>
+                            <div class="contact-icon-wrapper">
+                                <span class="material-symbols-outlined">work</span>
+                            </div>
+                            <div class="contact-info">
+                                <h4>LinkedIn</h4>
+                                <p>Fadlan Dwi Febrio</p>
+                            </div>
+                            <span class="material-symbols-outlined arrow">arrow_outward</span>
+                        </a>
+                        
+                        <a href="https://wa.me//62895609616426" target="_blank" class="contact-card" data-hover>
+                            <div class="contact-icon-wrapper">
+                                <span class="material-symbols-outlined">chat</span>
+                            </div>
+                            <div class="contact-info">
+                                <h4>WhatsApp</h4>
+                                <p>Direct Message</p>
+                            </div>
+                            <span class="material-symbols-outlined arrow">arrow_outward</span>
+                        </a>
+                    </div>
+
+                    <div class="social-links-minimal">
+                        <p>Other Platforms</p>
+                        <div class="social-icons">
+                            <a href="https://www.youtube.com/@FadlanDFB" target="_blank" aria-label="YouTube" data-hover>
+                                <span class="material-symbols-outlined">play_circle</span>
+                            </a>
+                            <a href="https://www.instagram.com/dlaa_nnn/" target="_blank" aria-label="Instagram" data-hover>
+                                <span class="material-symbols-outlined">photo_camera</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <a href="#home" class="logo">
+                    <span class="logo-text">FDF</span><span class="logo-dot">.</span>
+                </a>
+                <p class="footer-desc">Synthesizing ideas into scalable digital realities.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fadlan Dwi Febrio. All Rights Reserved.</p>
+                <div class="system-status">
+                    <span class="status-dot blink"></span>
+                    <span class="font-code">SYS::ONLINE</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top" data-hover>
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
